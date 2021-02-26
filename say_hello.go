@@ -1,5 +1,5 @@
 package sayhello
 
-func SayHello() string {
-	return "hello world upgrade modul"
+func SayHello(name string) string {
+	return "hello world" + name
 }
